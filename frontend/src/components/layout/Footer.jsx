@@ -70,7 +70,7 @@ const Footer = () => {
                 {personalInfo.location}
               </div>
               <a
-                href={`https://linkedin.com/in/${personalInfo.linkedin}`}
+                href={personalInfo.linkedinUrl || `https://linkedin.com/in/${personalInfo.linkedin}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900 transition-colors"
