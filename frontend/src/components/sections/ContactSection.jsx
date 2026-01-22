@@ -76,7 +76,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href={`https://linkedin.com/in/${personalInfo.linkedin}`}
+                href={personalInfo.linkedinUrl || `https://linkedin.com/in/${personalInfo.linkedin}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-white border border-neutral-200 rounded-lg hover:shadow-md hover:border-neutral-300 transition-all duration-300 group"
