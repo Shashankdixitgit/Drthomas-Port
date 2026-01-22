@@ -27,8 +27,12 @@ const HeroSection = () => {
 
           {/* Name with Notion-style avatar */}
           <div className="flex items-start gap-4 mb-6">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-neutral-800 to-neutral-600 rounded-lg flex items-center justify-center text-white text-2xl md:text-3xl font-bold shadow-lg">
-              {personalInfo.avatar}
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src={personalInfo.avatar} 
+                alt={personalInfo.name}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight">
