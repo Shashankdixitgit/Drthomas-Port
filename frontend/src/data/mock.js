@@ -7,9 +7,10 @@ export const personalInfo = {
   tagline: "Pioneering excellence in headache medicine and interventional neurology",
   email: "drpravinthomas@hotmail.com",
   phone: "+91 6364102735",
-  linkedin: "pravin-thomas-45867a19",
+  linkedin: "dr-pravin-thomas-45867a19",
+  linkedinUrl: "https://www.linkedin.com/in/dr-pravin-thomas-45867a19/",
   location: "Bangalore, India",
-  avatar: "PT",
+  avatar: "https://customer-assets.emergentagent.com/job_c9ab8b61-322f-425b-9d0d-bd8f35f8768f/artifacts/sn2jyikb_image.png",
   bio: "With over two decades of clinical experience, I specialize in complex headache disorders and interventional headache neurology. As Chairman of the World Headache Society and Clinical Lead at Narayana Health, I'm dedicated to advancing headache medicine globally, particularly in underserved regions."
 };
 
